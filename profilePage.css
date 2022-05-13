@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF9F2;
+}
+
+#menuBanner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #948c5d;
+    font-weight: bold;
+}
+
+#searchBox {
+   background-color: rgb(209,209,209);
+    height: 50px; 
+    width: 700px; 
+    display: flex; 
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+}
+
+#searchIcon {
+    padding: 0 10px;
+    height:inherit;
+    width: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#searchImage {
+    height: 30px;
+    width: 30px;
+}
+
+#searchInput {
+    background-color: transparent;
+    height: 30px;
+    width: inherit;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    align-self: center;
+}
+
+#flex-container {
+    display: flex;
+}
+
+#bio-1 {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+}
+
+.details {
+    color: #76522D;
+    font-family: Quicksand;
+}
+
+#userName {
+    color: #76522D;
+    font-family: Barlow;
+    font-size: 52px;
+    margin: 10px 0 5px 0;
+}
+
+#birthday {
+    margin: 60px 0 15px 0;
+}
+
+#birthday, #socialMedia {
+    margin-left: 50px;
+}
+
+#socialMedia {
+    margin-bottom: 10px;
+}
+
+.socmedIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 85px;
+}
+
+separator {
+    border-right: 4px solid #948C5D;
+    height: 600px;
+    margin-top: 30px;
+}
