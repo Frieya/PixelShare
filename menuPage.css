@@ -60,7 +60,6 @@ body {
 #mainContent {
     display: flex;
     width: 1050px;
-    height: 4056px;
     margin: 0px 80px;
 }
 
@@ -74,7 +73,7 @@ body {
 
 #recommendationContent {
     margin-top: 20px;
-    width: 400px;
+    width: 500px;
     height: 400px;
 }
 
