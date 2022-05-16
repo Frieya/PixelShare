@@ -94,6 +94,20 @@ body{
 
 }
 
+.wrapper .left .logout {
+    width: 100px;
+    margin-top: 70px;
+    margin-left: -80px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    color: #76522D;
+    text-align: center;
+
+}
+
 .wrapper h3{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -156,6 +170,3 @@ input[type=submit]{
     font-size: 25px;
     background-color: #76522D;
 }   
-
-
-
