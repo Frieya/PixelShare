@@ -1,6 +1,18 @@
 $(document).ready(function () {
+    var post;
+
+    $('#continueDelete').click(function () { 
+        $('#promptLayer').css('display', "none");
+        post.closest('.posts').remove();
+    });
+    
+    $('#cancelDelete').click(function () { 
+        $('#promptLayer').css('display', "none");
+     });
+
     $('.optionButton').click( function () {
-        $(this).closest('.posts').hide();
+        post = $(this);
+        $('#promptLayer').css('display', "flex");
     });
 
 });
