@@ -23,7 +23,7 @@
 #searchBox {
     background-color: rgb(209,209,209);
     height: 50px; 
-    width: 900px; 
+    width: 90%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -48,6 +48,9 @@
     justify-content: center; 
 }
 
+.menu_button {
+    margin-left: 10px;
+}
 body{
     background-color: #FFF9F2;
 }
@@ -61,7 +64,7 @@ body{
     left: 5%;
     margin-left: 8%;
     transform: translate(-50% -50%);
-    width: 1000px;
+    width: 80%;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -69,21 +72,21 @@ body{
 }
 
 .wrapper .left {
-    width: 30%;
-    padding: 30px 100px;
-    border-radius: 15px;
+    width: 50%;
+    margin: 30px 0px;
+    display: flex;;;align-self: center;border-radius: 15px;
 }
 
 
 .wrapper .left img {
     border-radius: 5%;
-    height: 400px;
-}
+    width: -webkit-fill-available;
+margin: 0px 30px;}
 
 
 .wrapper .right{
    
-    width: 65%;
+    width: 50%;
     background-color: #E3E3E3;
     border-radius: 15px;
     padding: 30px 30px;
@@ -116,7 +119,15 @@ body{
     border: 3px solid;
     margin-top: 5px;
     border-color: #FFF9F2;
-    width: 8%;
+    height: 40px;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+    border-color: #FFF9F2;
+    height: 40px;
 }
 
 .right .comments {
@@ -136,15 +147,15 @@ body{
 .reply {
     font-size: 15px;
     display: flex;
-    margin-top: -15px;
-    margin-left: 52px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .reply .date{
     color: #808080;
 }
 .reply a{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     text-decoration: none;
     color: #76522D;
 }
@@ -160,8 +171,8 @@ body{
 }
 
 .author button{
-    margin-left: 200px;
-    margin-top: 10px;
+    /* margin-left: 200px; */
+    position: absolute;right: 8%;margin-top: 20px;
     height: 30px;
     width: 100px;
     border-radius: 15px;
@@ -193,16 +204,16 @@ body{
 .add-comm input {
     border-radius: 10px;
     padding: 10px;
-    width: 350px;
+    width: 100%;
     border: 0ch;
     font-size: medium;
 }
 
 .down {
     position: absolute;
-    right: 8%;
+    right: 3%;
     margin-top: 10px;
-}
+/* margin-right: 3%; *//* left: 0; *//* display: flex; */}
 
 .down button {
     width: 80px;
