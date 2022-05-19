@@ -30,22 +30,27 @@
             }
         </style>
       
-        <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
+      <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
             <header id="menuBanner" class="topMenu">
-                <h1 style="font-size: 40px; font-family: sans-serif; color: #948c5d; font-weight:bolder;">LOGO</h1>
+                <h1><a href="Home" style="font-size: 40px; font-family: sans-serif; color: #76522D; font-weight: bold;">LOGO</a></h1>
                 <div id="searchBox" >
                     <div id="searchIcon" >
-                       <img id="" style="height: 30px;width: 30px;" src="icons/Vector_search_icon.png" alt=""> 
+                    <img id=""  style="height: 30px;width: 30px;" src="../icons/searchIcon.png" alt=""> 
                     </div>
-                    <input type="text" id="searchInput" > 
+                    <input type="text" id="searchInput">   
+                </div>  
+                
+                <div id="notif" class="menu_button">
+                    <img  style="height: 50px;" src="../icons/notif.png" alt="notif">
                 </div>
-                <div>
-                    <img id="notif_button" src="icons/notif.png" alt="notif">
-                </div>  
-                <div>
-                    <img style="width: 40px;" id="profile_button" src="icons/profile.png" alt="notif">
-                </div>  
-               
+
+                <div id="profile"  class="menu_button">
+                    <img class="profile_pic" style="height: 50px;" src="..\icons\image.png" alt="profile">
+                </div>
+
+                <div id="settings"  class="menu_button">
+                    <img style="height: 50px; " src="../icons/settings.png" alt="settings">
+                </div>
             </header>
         </div>
 
@@ -84,10 +89,7 @@
                 
                 <div style="display: flex; justify-content: center; margin-top: 10px;">
                     <button type="button" class="btn_addpost btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"  viewBox="0 0 20 20">
-                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"></path>
-                          </svg><span  style="font-size: 15px; font-weight: BOLD;;"> GO TO FAVORITES </span> </a>
-                           
+                       <span  style="font-size: 15px; font-weight: BOLD;;"> GO TO FAVORITES </span> </a>          
                     </button>
                 </div>
                 

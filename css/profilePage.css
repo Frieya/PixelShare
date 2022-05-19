@@ -53,7 +53,7 @@ body {
 #searchBox {
    background-color: rgb(209,209,209);
     height: 50px; 
-    width: 850px; 
+    width: 100%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -281,4 +281,16 @@ font-size: 50px;}
     border-radius: 5%;
     top: 30%;
     position: sticky;
-padding: 2%;}
+/* margin: 2%; */padding: 25px 2%;}
+
+
+.profile_pic{
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+    border-color: #FFF9F2;
+    height: 40px;
+}
+.menu_button {
+    margin-left: 10px;
+}
