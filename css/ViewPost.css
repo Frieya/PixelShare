@@ -93,11 +93,13 @@ margin: 0px 30px;}
     font-family: 'Roboto', sans-serif;
 }
 
-.right h1 {
+right h1 {
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: #76522D;
 }
+
 
 .right .follower {
     font-size: 15px;
@@ -176,8 +178,8 @@ margin: 0px 30px;}
 }
 
 .author button{
-    /* margin-left: 200px; */
-    position: absolute;right: 8%;margin-top: 20px;
+    margin-left: 200px;
+    /* position: absolute; */right: 8%;margin-top: 20px;
     height: 30px;
     width: 100px;
     border-radius: 15px;
@@ -233,3 +235,32 @@ margin: 0px 30px;}
     font-size: 15px;
 }
 
+
+.fav {
+    display: flex;
+}
+
+.fav .add{
+    border-radius: 25px;
+    width: 140px;
+    background-color: #76522D;
+    margin-bottom: 10px;
+    border-style: none;
+    text-align: inherit;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 20px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #76522D;
+    margin-top: 10px;
+    margin-left: -10px;}
