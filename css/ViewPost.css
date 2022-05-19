@@ -93,12 +93,14 @@ margin: 0px 30px;}
     font-family: 'Roboto', sans-serif;
 }
 
+
 right h1 {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: #76522D;
 }
+
 
 
 .right .follower {
@@ -263,4 +265,8 @@ right h1 {
     text-decoration: none;
     color: #76522D;
     margin-top: 10px;
-    margin-left: -10px;}
+    margin-left: -10px;
+}
+
+
+
