@@ -19,7 +19,7 @@
 #searchBox {
     background-color: rgb(209,209,209);
     height: 50px; 
-    width: 900px; 
+    width: 90%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -43,7 +43,9 @@
     align-items: center;
     justify-content: center; 
 }
-
+.menu_button {
+    margin-left: 10px;
+}
 body{
     background-color: #FFF9F2;
 }
@@ -51,8 +53,8 @@ body{
 .wrapper {
     position: absolute;
     height: 450px;
-    top: 20%;
-    left: 5%;
+    /* top: 20%; */
+    /* left: 5%; */
     transform: translate(-50% -50%);
     width: 1200px;
     display: flex;
@@ -170,3 +172,11 @@ input[type=submit]{
     font-size: 25px;
     background-color: #76522D;
 }   
+
+.profile_pic{
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+    border-color: #FFF9F2;
+    height: 40px;
+}
