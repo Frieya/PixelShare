@@ -94,6 +94,15 @@ margin: 0px 30px;}
 }
 
 
+right h1 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #76522D;
+}
+
+
+
 .right .follower {
     font-size: 15px;
     color: #808080;
@@ -171,8 +180,8 @@ margin: 0px 30px;}
 }
 
 .author button{
-    /* margin-left: 200px; */
-    position: absolute;right: 8%;margin-top: 20px;
+    margin-left: 200px;
+    /* position: absolute; */right: 8%;margin-top: 20px;
     height: 30px;
     width: 100px;
     border-radius: 15px;
@@ -226,14 +235,6 @@ margin: 0px 30px;}
     font-weight: bold;
     background-color: #c9c9c9;
     font-size: 15px;
-}
-
-.right h1 {
-
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: #76522D;
 }
 
 

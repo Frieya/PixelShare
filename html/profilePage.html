@@ -30,22 +30,27 @@
             }
         </style>
       
-        <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
+      <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
             <header id="menuBanner" class="topMenu">
-                <h1 style="font-size: 40px; font-family: sans-serif; color: #948c5d; font-weight:bolder;">LOGO</h1>
+                <h1><a href="menuPage.html" style="font-size: 40px; font-family: sans-serif; color: #76522D; font-weight: bold;">LOGO</a></h1>
                 <div id="searchBox" >
                     <div id="searchIcon" >
-                       <img id="" style="height: 30px;width: 30px;" src="icons/Vector_search_icon.png" alt=""> 
+                    <img id=""  style="height: 30px;width: 30px;" src="../icons/searchIcon.png" alt=""> 
                     </div>
-                    <input type="text" id="searchInput" > 
+                    <input type="text" id="searchInput">   
+                </div>  
+                
+                <div id="notif" class="menu_button">
+                    <img  style="height: 50px;" src="../icons/notif.png" alt="notif">
                 </div>
-                <div>
-                    <img id="notif_button" src="icons/notif.png" alt="notif">
-                </div>  
-                <div>
-                    <img style="width: 40px;" id="profile_button" src="icons/profile.png" alt="notif">
-                </div>  
-               
+
+                <div id="profile"  class="menu_button">
+                    <img class="profile_pic" style="height: 50px;" src="..\images\profilePicture\image.png" alt="profile">
+                </div>
+
+                <div id="settings"  class="menu_button">
+                    <img style="height: 50px; " src="../icons/settings.png" alt="settings">
+                </div>
             </header>
         </div>
 
@@ -84,10 +89,7 @@
                 
                 <div style="display: flex; justify-content: center; margin-top: 10px;">
                     <button type="button" class="btn_addpost btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"  viewBox="0 0 20 20">
-                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"></path>
-                          </svg><span  style="font-size: 15px; font-weight: BOLD;;"> GO TO FAVORITES </span> </a>
-                           
+                       <span  style="font-size: 15px; font-weight: BOLD;;"> GO TO FAVORITES </span> </a>          
                     </button>
                 </div>
                 
@@ -107,7 +109,7 @@
 
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/10 WTF Photography Ideas in 100 Seconds.jpg" alt="">
+                                <img class="post_img" src="..\images\post/10 WTF Photography Ideas in 100 Seconds.jpg" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
@@ -117,7 +119,7 @@
                         
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/9df2f300d0b7c2b620941be3c925e37b.jpg" alt="">
+                                <img class="post_img" src="..\images\post\post/9df2f300d0b7c2b620941be3c925e37b.jpg" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
@@ -128,7 +130,7 @@
                         
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/1067674388.jpg" alt="">
+                                <img class="post_img" src="..\images\post/1067674388.jpg" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
@@ -141,7 +143,7 @@
                     <div id="row2" class="row_post">
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/01_Cleaning-lens.jpg" alt="">
+                                <img class="post_img" src="..\images\post/01_Cleaning-lens.jpg" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
@@ -151,7 +153,7 @@
     
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/AdobeStock_132778172.jpg" alt="">
+                                <img class="post_img" src="..\images\post/AdobeStock_132778172.jpg" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
@@ -161,7 +163,7 @@
                         
                         <div class="posts">
                             <div class="post_box">
-                                <img class="post_img" src="..\images/commission_for_rilin___waiting_for_rain_to_pass_by_wolfiedrawie_deruye4-250t.png" alt="">
+                                <img class="post_img" src="..\images\post/commission_for_rilin___waiting_for_rain_to_pass_by_wolfiedrawie_deruye4-250t.png" alt="">
                                 <div class="img_shade"></div>
                                 <svg class="optionButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16" >
                                     <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>

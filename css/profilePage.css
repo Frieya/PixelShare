@@ -9,7 +9,10 @@
     
 }
 
-
+html {
+    height: 100%;
+    background-color: #fff9f2;
+}
 body {
    
     position: relative;
@@ -53,7 +56,7 @@ body {
 #searchBox {
    background-color: rgb(209,209,209);
     height: 50px; 
-    width: 850px; 
+    width: 100%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -170,7 +173,7 @@ padding-right: 20%;}
 }
 
 .post_img {
-    width: auto;
+    width: 100%;
     height: auto;
     align-self: center;
     border-radius: 10px;
@@ -202,7 +205,7 @@ margin-right: 5px;}
 
 .profile_img {
    width: 50%;
-   height: 50%;
+   /* height: 50%; */
    border-radius: 50%; 
    margin: 0 100px;}
 
@@ -222,7 +225,7 @@ margin-right: 5px;}
 /* font-size: 15px; */}
 
 .infoBox {
-    margin: 0 30px;
+    margin: -5px 30px;
 }
 
 
@@ -238,7 +241,7 @@ separator {
 /*----------FOLLOW CONTENT SECTION-----------*/
 #followContent {
     padding: 10px 0;
-    display: flex;
+    margin: -15px 0 -10px;display: flex;
     justify-content: center;}
 
 #followers, #followings {
@@ -281,4 +284,16 @@ font-size: 50px;}
     border-radius: 5%;
     top: 30%;
     position: sticky;
-padding: 2%;}
+/* margin: 2%; */padding: 25px 2%;}
+
+
+.profile_pic{
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+    border-color: #FFF9F2;
+    height: 40px;
+}
+.menu_button {
+    margin-left: 10px;
+}
