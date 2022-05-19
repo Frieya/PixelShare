@@ -24,7 +24,7 @@ body {
 #searchBox {
    background-color: rgb(209,209,209);
     height: 50px; 
-    width: 850px; 
+    width: 90%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -59,13 +59,13 @@ body {
 
 #mainContent {
     display: flex;
-    width: 1050px;
-    margin: 0px 80px;
+    justify-content: center;width: 100%;
+    margin: 0px 0%;
 }
 
 #imageContent {
     height: inherit;
-    width: 750px;
+    width: 70%;
     display: flex;
     margin-top: 20px;
 
@@ -73,7 +73,7 @@ body {
 
 #recommendationContent {
     margin-top: 20px;
-    width: 500px;
+    width: 20%;
     height: 400px;
 }
 
@@ -83,21 +83,21 @@ body {
 }
 
 .posts {
-    width: 230px;
+    width: 95%;
     height:auto;
     display: flex;
     margin-bottom: 20px;
 }
 
 .post_box {
-    width: 250px;
+    width: inherit;
     height: auto;display: flex;
     flex-direction: column;
     align-self: center;
 }
 
 .row_post {
-    width: 250px;
+    width: 40%;
     height: inherit;
 }
 
@@ -120,11 +120,14 @@ body {
 .imageOP {
     height: inherit;
     width: 20px;
-margin-right: 5px;}
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #FFF9F2;}
 
 .nunito {
     font-family: 'Nunito', sans-serif;
-}
+font-size: 20px;}
 
 .color_brown {
     color: rgb(118,82,45);
@@ -164,4 +167,15 @@ transform: translate(-50%, -50%);}
     top: 0;
     left: 0;
     border-radius: 10px;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+    border-color: #FFF9F2;
+    height: 40px;
+}
+.menu_button {
+    margin-left: 10px;
 }
