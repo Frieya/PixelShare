@@ -5,26 +5,26 @@
     </head>
 
     <body>
-        <div style="padding: 10px 60px;">
+        <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
             <header id="menuBanner" class="topMenu">
-                <h1><a href="Home" style="font-size: 40px; font-family: sans-serif; color: #76522D; font-weight: bold;">LOGO</a></h1>
+                <h1><a href="menuPage.html" style="font-size: 40px; font-family: sans-serif; color: #76522D; font-weight: bold; text-decoration: none">LOGO</a></h1>
                 <div id="searchBox" >
                     <div id="searchIcon" >
-                       <img id="" style="height: 30px;width: 30px;" src="searchIcon.png" alt=""> 
+                    <img id=""  style="height: 30px;width: 30px;" src="../icons/searchIcon.png" alt=""> 
                     </div>
                     <input type="text" id="searchInput">   
                 </div>  
                 
-                <div id="notif">
-                    <img  style="height: 50px;" src="notif-removebg-preview.png" alt="notif">
+                <div id="notif" class="menu_button" style="margin-left: 10px">
+                    <img  style="height: 50px;" src="../icons/notif.png" alt="notif">
                 </div>
 
-                <div id="profile">
-                    <img style="height: 50px; margin-left: -30px" src="profile-removebg-preview.png" alt="profile">
+                <div id="profile"  class="menu_button" style="margin-left: 10px;">
+                    <img class="profile_pic" style="height: 50px;  border-radius:50px;" src="..\images\profilePicture\image.png" alt="profile">
                 </div>
 
-                <div id="settings">
-                    <a href="userinfo.html"><img style="height: 50px; margin-left: -30px;" src="settings-removebg-preview.png" alt="settings"></a>
+                <div id="settings"  class="menu_button" style="margin-left: 10px;">
+                    <a href="userinfo.html"><img style="height: 50px; " src="../icons/settings.png" alt="settings"></a>
                 </div>
             </header>
         </div>
