@@ -14,5 +14,5 @@ $(document).ready(function () {
         post = $(this);
         $('#promptLayer').css('display', "flex");
     });
-
+   
 });

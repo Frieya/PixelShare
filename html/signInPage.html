@@ -9,7 +9,11 @@
               background-image: url('../images/bg_login.png');
             }
         </style>
-       
+       <script>
+           function menu() {
+               document.location.href = "menuPage.html";
+           }
+       </script>
     </head>
 
     <body>
@@ -30,7 +34,7 @@
                         </div>
                         <p id="forgotp"><a href="" style="color: #76522d;">Forgot your password?</a></p><br> 
                         <div class="txtbox">
-                            <input type="button" id="submitButton" value="SIGN-IN">
+                            <input type="button" id="submitButton" value="SIGN-IN" onclick="menu()">
                         </div>
                     </form>     
                 </div>

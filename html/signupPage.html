@@ -9,6 +9,11 @@
               background-image: url('../images/bg_signup.png');
             }
             </style>
+            <script>
+                function menu() {
+                    document.location.href = "menuPage.html";
+                }
+            </script>
     </head>
     
     <body>
@@ -41,7 +46,7 @@
                 <input class="textbox" type="email" placeholder="  EMAIL ADDRESS" /> <br>
                 <input class="textbox" type="password" placeholder="  CREATE PASSWORD" /> <br>
                 <input class="textbox" type="password" placeholder="  CONFIRM PASSWORD" /> <br>
-                <input id="button" class="btn_addpost btn btn-outline-dark" type="submit" value="SIGN UP" />
+                <input id="button" class="btn_addpost btn btn-outline-dark" type="submit" value="SIGN UP" onclick="menu()"/>
             
             </div>
         
