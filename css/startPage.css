@@ -10,7 +10,7 @@
 
 body {
     background-color: #FFF9F2;
-    background-image: url("bg_1stpage.png");
+    background-image: url("../images/bg_1stpage.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
