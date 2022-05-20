@@ -21,7 +21,7 @@
 #searchBox {
     background-color: rgb(209,209,209);
     height: 50px; 
-    width: 900px; 
+    width: 100%; 
     display: flex; 
     border-radius: 10px;
     margin: 0 0 0 20px;
@@ -54,9 +54,9 @@ body{
     position: absolute;
     height: 450px;
     top: 20%;
-    left: 8%;
+    /* left: 8%; */
     transform: translate(-50% -50%);
-    width: 1200px;
+    width: 1150px;
     display: flex;
 }
 
