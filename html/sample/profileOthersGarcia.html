@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Page Title</title>
-        <link rel="stylesheet" href="..\css\profilePage.css">
+        <link rel="stylesheet" href="../..\css\profilePage.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@500&display=swap');
         </style>
@@ -32,24 +32,24 @@
       
       <div style="padding: 10px 60px; position: sticky; top:0;  background-color: #fff9f2; z-index: 10;">
             <header id="menuBanner" class="topMenu">
-                <h1><a href="menuPage.html" style="font-size: 40px; font-family: sans-serif; color: #76522D; font-weight: bold; text-decoration: none">LOGO</a></h1>
+                <h1><a href="../menuPage.html" style="font-size: 40px; text-decoration:none; font-family: sans-serif; color: #76522D; font-weight: bold;">LOGO</a></h1>
                 <div id="searchBox" >
                     <div id="searchIcon" >
-                    <img id=""  style="height: 30px;width: 30px;" src="../icons/searchIcon.png" alt=""> 
+                    <img id=""  style="height: 30px;width: 30px;" src="../../icons/searchIcon.png" alt=""> 
                     </div>
                     <input type="text" id="searchInput">   
                 </div>  
                 
                 <div id="notif" class="menu_button">
-                    <img  style="height: 50px;" src="../icons/notif.png" alt="notif">
+                    <img  style="height: 50px;" src="../../icons/notif.png" alt="notif">
                 </div>
 
                 <div id="profile"  class="menu_button">
-                    <a href="profilePage.html"><img class="profile_pic" style="height: 50px;" src="..\images\profilePicture\image.png" alt="profile"></a>
+                   <a href="../profilePage.html"> <img class="profile_pic" style="height: 50px;" src="../..\images\profilePicture\image.png" alt="profile"></a>
                 </div>
 
                 <div id="settings"  class="menu_button">
-                    <a href="userinfo.html"><img style="height: 50px; " src="../icons/settings.png" alt="settings"></a>
+                    <a href="../userinfo.html"><img style="height: 50px; " src="../../icons/settings.png" alt="settings"></a>
                 </div>
             </header>
         </div>
@@ -58,34 +58,36 @@
 
         <div id="mainContent">
             <div id="profileContent">
-               <div style="display: flex; justify-content: center;">
-                   <img class="profile_img" src="..\images\profilePicture/image.png" alt="">
+               <div style="display: flex; justify-content: center;height: 225px;">
+                   <img class="profile_img" src="..\..\images\profilePicture/elesteyzis.jpg" alt="">
                </div>
                
                <div style="margin-top: 10px;">
                    <div class="infoBox">
-                        <h1 id="accountName">Juan Dela Cruz</h1>
+                        <h1 id="accountName">Brianna Garcia</h1>
                    </div>
                    <div class="infoBox">
-                        <p id="userDescription">living in the harsh environment of the Philippines</p>
+                        <p id="userDescription">I'm a professional illustrator with a love for comics, movies, and theme parks. Former storyboard revisionist for Warner Bros Animation, illustrator for Nickelodeon/Random House, and currently a comic artist </p>
                    </div>
                    
                </div>
 
                 <div id="followContent">
-                    <p id="followers">  <span id="followerCount">10</span> FOLLOWERS</p>
-                    <p id="followings"> <span id="followingCount">20</span> FOLLOWINGS  </p>
+                    <p id="followers">  <span id="followerCount">107K</span> FOLLOWERS</p>
+                    <p id="followings"> <span id="followingCount">1984</span> FOLLOWINGS  </p>
                 </div>
 
-               
-                
-                <div style="display: flex; justify-content: center; margin-top: 10px;">
-                    <a href="profilePage.html">
+                <div style="display: flex; justify-content: center;">
                     <button type="button" class="btn_addpost btn">
-                       <span  style="font-size: 15px; font-weight: BOLD; color:#76522D; text-decoration: none;"> BACK TO PROFILE </span> </a>          
+                        
+                          <span  style="font-size: 15px; font-weight: BOLD;">FOLLOW</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"  viewBox="0 0 20 20">
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"></path>
+                          </svg>
                     </button>
-                    </a>
                 </div>
+                
+              
                 
 
             </div>
@@ -95,18 +97,25 @@
 
             <div style="width:60%">
                 <div class="workContent">
-                    <h1 id="text_MyWorks">Favorites</h1>
+                    <h1 id="text_MyWorks"> Brianna's Works</h1>
                     
                 </div>
                 <div id="imageContent">
                     <div id="row1" class="row_post">
 
+                        <div class="posts">
+                            <div class="post_box">
+                                <img class="post_img" src="..\..\images\post/rogue.jpg" alt="">
+                                <div class="img_shade"></div>
+                            </div> 
+                        </div>
+                        
                         
     
                     </div>
                     
                     <div id="row2" class="row_post">
-                    
+                        
     
                     </div>
                 </div>
@@ -114,20 +123,7 @@
             
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <div id="promptLayer">
-            <div class="promptDelete">
-                <h2>Delete Post?</h2>
-                <div>
-                    <p>This action cannot be undone and it will be remove from your profile and any page from this site thereon.</p>
-                </div>
-                <div class="d-grid gap-3 col-9 mx-auto">
-                    <button id="continueDelete" type="button" class="btn btn-outline-danger">Continue</button>
-                    <button id="cancelDelete" type="button" class="btn btn-outline-dark">Cancel</button>
-                </div>
-               
-                    
-            </div>
-        </div>
+        
     </body>
 
 </html>
