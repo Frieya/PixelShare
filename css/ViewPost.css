@@ -128,7 +128,7 @@ justify-content: center;}
     color: #4e4e4e;
     font-style: italic;
     font-family: 'Roboto Slab', serif;
-}
+text-decoration: inherit;}
 
 .right .avatar{
     border-radius: 50%;
