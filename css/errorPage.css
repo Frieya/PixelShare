@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FFF9F2;
+}
+
+#flex-container {
+  text-align: center;
+}
+
+#introductory_1 {
+    color: #948C5D;
+    font-family: Barlow;
+    font-size: 104px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 125px;
+}
+
+#introductory_2 {
+    color: #76522D;
+    font-family: Barlow;
+    font-size: 50px;
+    text-align: center;
+}
+
+#button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 70px
+}
